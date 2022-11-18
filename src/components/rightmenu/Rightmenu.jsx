@@ -1,15 +1,11 @@
 import React from 'react';
-
+import Activeservices from '../activeservices/Activeservices';
 const Rightmenu = () => {
     return (
         <div className="right-side-bar text-center">
             <div className="chuong-trinh-noi-bat-wrapper">
                 <p className="chuong-trinh-noi-bat-header">Chương trình nổi bật</p>
-                <div className="chuong-trinh-noi-bat-slick">
-                    <img srcSet="assets/slick1.webp" className="slick-img"/>
-                    <img srcSet="assets/slick2.webp" className="slick-img"/>
-                    <img srcSet="assets/slick3.webp" className="slick-img"/>
-                </div>
+                <Activeservices/>
             </div>
             <div className="chu-de-dao-tao-wrapper">
                 <div className="chu-de-dao-tao-header-wrapper">

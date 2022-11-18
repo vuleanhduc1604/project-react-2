@@ -15,19 +15,12 @@ const Navigation = () => {
                     <span className="menu-link" data-toggle="submenu">Giới thiệu<i className="fa fa-caret-down" aria-hidden="true"></i></span>
                     <ul className="submenu">
                        <li className="submenu-item"><Link to='/about'className="submenu-link">Về chúng tôi</Link></li>
-                       <li className="submenu-item"><Link href="loiichkhachhang.html" className="submenu-link">Lợi ích khách hàng</Link></li>
+                       <li className="submenu-item"><Link to="/clientsprofit" className="submenu-link">Lợi ích khách hàng</Link></li>
                     </ul>
                  </li>
-                 <li className="menu-item menu-dropdown">
-                    <span className="menu-link" data-toggle="submenu">Dịch vụ<i className="fa fa-caret-down" aria-hidden="true"></i></span>
-                    <ul className="submenu">
-                       <li className="submenu-item"><Link href="dichvu.html#dich-vu-1" className="submenu-link">Tư vấn quản lý</Link></li>
-                       <li className="submenu-item"><Link href="dichvu.html#dich-vu-2" className="submenu-link">Khảo sát và đánh giá năng lực</Link></li>
-                       <li className="submenu-item"><Link href="dichvu.html#dich-vu-3" className="submenu-link">Đào tạo và phát triển</Link></li>
-                    </ul>
-                 </li>
-                 <li className="menu-item" id="hethong"><Link to="/tracnghiem" className="menu-link">Trắc nghiệm</Link></li>
-                 <li className="menu-item"><Link href="/tuyendung" className="menu-link">Tuyển dụng</Link></li>
+                 <li className="menu-item" id="hethong"><Link to="/dichvu" className="menu-link">Dịch vụ</Link></li>
+                 <li className="menu-item" id="hethong"><a href="tracnghiem.html" target='_blank' className="menu-link">Trắc nghiệm</a></li>
+                 <li className="menu-item"><Link to="/tuyendung" className="menu-link">Tuyển dụng</Link></li>
               </ul>
            </nav>
            <Link href="profile.html" className="account"><i className="fa-solid fa-user"></i></Link>

@@ -12,9 +12,9 @@ const Activeservices = () => {
     return (
         <div class="chuong-trinh-noi-bat-slick">
             <Slider {...settings}>
-                <img srcSet="slick1.webp" className="slick-img"/>
-                <img srcSet="slick2.webp" className="slick-img"/>
-                <img srcSet="slick3.webp" className="slick-img"/>
+                <img src="slick1.webp" className="slick-img"/>
+                <img src="slick2.webp" className="slick-img"/>
+                <img src="slick3.webp" className="slick-img"/>
             </Slider>
         </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Contact from '../../components/contact/Contact';
+import '../../css/dichvu.css'
 const Services = () => {
     return (
         <div>
@@ -224,21 +225,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="contact-us padding-wrapper text-center">
-          <p className="content-header">Liên hệ <span className="grey-bold">với chúng tôi</span></p>
-          <div className="input-wrapper d-flex justify-content-center">
-            <div className="left-wrapper">
-              <input type="text" className="name" placeholder="Họ và tên..." />
-              <input type="tel" className="phone-number" placeholder="Số điện thoại..." />
-              <input type="text" className="company" placeholder="Tên Doanh nghiệp" />
-            </div>
-            <div className="right-wrapper">
-              <input type="email" className="email" placeholder="Email..." />
-              <textarea className="problem" placeholder="Nội dung cần tư vấn" defaultValue={""} />
-            </div>
-          </div>
-          <button className="submit-contact">Gửi</button>
-        </div>
+        <Contact/>
       </div>
     );
 };

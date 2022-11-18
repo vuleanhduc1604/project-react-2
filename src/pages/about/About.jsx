@@ -13,7 +13,7 @@ const About = () => {
           <Leftmenu/>
           <div className="middle-content">
             <div className="gioi-thieu d-flex align-items-center">
-              <div className="img-wrapper">
+              <div>
                 <img src="Picture1.webp" className="img" alt="img" />
               </div>
               <div className="gioi-thieu-desc-wrapper">
