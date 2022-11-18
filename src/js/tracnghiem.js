@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css" 
+
 const allBtn = document.querySelector('.all-button');
 const overlay = document.querySelector('.overlay')
 allBtn.addEventListener('click', () => {
